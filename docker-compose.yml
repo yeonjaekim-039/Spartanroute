@@ -1,0 +1,32 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: spartanroute
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-spartanroute}
+      POSTGRES_DB: spartanroute
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U spartanroute"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+  collector:
+    build: ./collector
+    env_file: .env
+    environment:
+      DATABASE_URL: postgresql://spartanroute:${POSTGRES_PASSWORD:-spartanroute}@db:5432/spartanroute
+    volumes:
+      - ./data:/data
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  pgdata:

@@ -1,0 +1,1 @@
+"""SpartanRoute GTFS-realtime collector."""
