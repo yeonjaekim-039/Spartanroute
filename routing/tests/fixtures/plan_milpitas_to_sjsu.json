@@ -1,0 +1,260 @@
+{
+  "data": {
+    "plan": {
+      "itineraries": [
+        {
+          "startTime": 1794238800000,
+          "endTime": 1794241200000,
+          "duration": 2400,
+          "walkDistance": 750.0,
+          "legs": [
+            {
+              "mode": "WALK",
+              "startTime": 1794238800000,
+              "endTime": 1794239040000,
+              "distance": 300.0,
+              "route": null,
+              "trip": null,
+              "from": {
+                "name": "Origin",
+                "stop": null
+              },
+              "to": {
+                "name": "Milpitas BART (Bay 14)",
+                "stop": {
+                  "gtfsId": "SC:5400"
+                }
+              }
+            },
+            {
+              "mode": "BUS",
+              "startTime": 1794239100000,
+              "endTime": 1794240840000,
+              "distance": 8000.0,
+              "route": {
+                "gtfsId": "SC:66",
+                "shortName": "66"
+              },
+              "trip": {
+                "gtfsId": "SC:6601"
+              },
+              "from": {
+                "name": "Milpitas BART (Bay 14)",
+                "stop": {
+                  "gtfsId": "SC:5400"
+                }
+              },
+              "to": {
+                "name": "Santa Clara & 7th",
+                "stop": {
+                  "gtfsId": "SC:1201"
+                }
+              }
+            },
+            {
+              "mode": "WALK",
+              "startTime": 1794240840000,
+              "endTime": 1794241200000,
+              "distance": 450.0,
+              "route": null,
+              "trip": null,
+              "from": {
+                "name": "Santa Clara & 7th",
+                "stop": {
+                  "gtfsId": "SC:1201"
+                }
+              },
+              "to": {
+                "name": "Destination",
+                "stop": null
+              }
+            }
+          ]
+        },
+        {
+          "startTime": 1794239280000,
+          "endTime": 1794241560000,
+          "duration": 2280,
+          "walkDistance": 1000.0,
+          "legs": [
+            {
+              "mode": "WALK",
+              "startTime": 1794239280000,
+              "endTime": 1794239520000,
+              "distance": 300.0,
+              "route": null,
+              "trip": null,
+              "from": {
+                "name": "Origin",
+                "stop": null
+              },
+              "to": {
+                "name": "Milpitas",
+                "stop": {
+                  "gtfsId": "BA:MLPT"
+                }
+              }
+            },
+            {
+              "mode": "SUBWAY",
+              "startTime": 1794239580000,
+              "endTime": 1794239820000,
+              "distance": 4000.0,
+              "route": {
+                "gtfsId": "BA:Orange-S",
+                "shortName": "Orange-S"
+              },
+              "trip": {
+                "gtfsId": "BA:1203"
+              },
+              "from": {
+                "name": "Milpitas",
+                "stop": {
+                  "gtfsId": "BA:MLPT"
+                }
+              },
+              "to": {
+                "name": "Berryessa / North San Jose",
+                "stop": {
+                  "gtfsId": "BA:BERY"
+                }
+              }
+            },
+            {
+              "mode": "WALK",
+              "startTime": 1794239820000,
+              "endTime": 1794240060000,
+              "distance": 200.0,
+              "route": null,
+              "trip": null,
+              "from": {
+                "name": "Berryessa / North San Jose",
+                "stop": {
+                  "gtfsId": "BA:BERY"
+                }
+              },
+              "to": {
+                "name": "Berryessa BART (Bay 1)",
+                "stop": {
+                  "gtfsId": "SC:5500"
+                }
+              }
+            },
+            {
+              "mode": "BUS",
+              "startTime": 1794240180000,
+              "endTime": 1794241140000,
+              "distance": 8000.0,
+              "route": {
+                "gtfsId": "SC:Rapid 500",
+                "shortName": "Rapid 500"
+              },
+              "trip": {
+                "gtfsId": "SC:9001"
+              },
+              "from": {
+                "name": "Berryessa BART (Bay 1)",
+                "stop": {
+                  "gtfsId": "SC:5500"
+                }
+              },
+              "to": {
+                "name": "Santa Clara & 5th",
+                "stop": {
+                  "gtfsId": "SC:1199"
+                }
+              }
+            },
+            {
+              "mode": "WALK",
+              "startTime": 1794241140000,
+              "endTime": 1794241560000,
+              "distance": 500.0,
+              "route": null,
+              "trip": null,
+              "from": {
+                "name": "Santa Clara & 5th",
+                "stop": {
+                  "gtfsId": "SC:1199"
+                }
+              },
+              "to": {
+                "name": "Destination",
+                "stop": null
+              }
+            }
+          ]
+        },
+        {
+          "startTime": 1794237900000,
+          "endTime": 1794240300000,
+          "duration": 2400,
+          "walkDistance": 750.0,
+          "legs": [
+            {
+              "mode": "WALK",
+              "startTime": 1794237900000,
+              "endTime": 1794238140000,
+              "distance": 300.0,
+              "route": null,
+              "trip": null,
+              "from": {
+                "name": "Origin",
+                "stop": null
+              },
+              "to": {
+                "name": "Milpitas BART (Bay 14)",
+                "stop": {
+                  "gtfsId": "SC:5400"
+                }
+              }
+            },
+            {
+              "mode": "BUS",
+              "startTime": 1794238200000,
+              "endTime": 1794239940000,
+              "distance": 8000.0,
+              "route": {
+                "gtfsId": "SC:66",
+                "shortName": "66"
+              },
+              "trip": {
+                "gtfsId": "SC:6600"
+              },
+              "from": {
+                "name": "Milpitas BART (Bay 14)",
+                "stop": {
+                  "gtfsId": "SC:5400"
+                }
+              },
+              "to": {
+                "name": "Santa Clara & 7th",
+                "stop": {
+                  "gtfsId": "SC:1201"
+                }
+              }
+            },
+            {
+              "mode": "WALK",
+              "startTime": 1794239940000,
+              "endTime": 1794240300000,
+              "distance": 450.0,
+              "route": null,
+              "trip": null,
+              "from": {
+                "name": "Santa Clara & 7th",
+                "stop": {
+                  "gtfsId": "SC:1201"
+                }
+              },
+              "to": {
+                "name": "Destination",
+                "stop": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
